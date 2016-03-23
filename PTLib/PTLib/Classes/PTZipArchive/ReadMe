@@ -1,0 +1,4 @@
+========= How to setup ZipArchive =========
+1, Import <Foundation/Foundation.h> in .pch file
+2, Build Phase -> Link Binary With Libraries -> Add "libz.1.2.5 tbd"
+3, Build Phase -> Compile Sources -> Search "ZipArchive.mm" -> Add "-fno-objc-arc" flag

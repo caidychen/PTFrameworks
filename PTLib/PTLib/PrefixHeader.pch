@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  PTLib
+//
+//  Created by LiLiLiu on 16/3/11.
+//  Copyright © 2016年 putao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//基础库
+#import "SOKit.h"
+
+//页面布局用
+#import "MMPlaceHolder.h"
+
+//屏幕左侧右划 pop
+#import "PTNavigationController.h"
+
+#endif /* PrefixHeader_pch */
